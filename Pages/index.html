@@ -6,6 +6,20 @@
   <link
     href="../Content/css/main.css"
     rel="stylesheet" type="text/css" />
+    <link
+    href="../Content/js/splide/dist/css/themes/splide-default.min.css"
+    rel="stylesheet" type="text/css" />
+    <script src="../Content/js/splide/dist/js/splide.min.js"></script>
+    <script>
+    new Splide( '.splide'  ).mount();
+    </script>
+    <script>
+      document.addEventListener( 'DOMContentLoaded', function () {
+        new Splide( '.splide' ).mount();
+      } );
+    </script>
+    
+    
   </head>
 
 <body class="body">
@@ -281,44 +295,16 @@
     </div>
   </div>
   <div id="testimonials" class="testimonials-section">
-    <div class="container testimonials w-container">
-      <div data-delay="4000" data-animation="slide" data-autoplay="1" data-duration="500" data-infinite="1"
-        class="slider w-slider">
-        <div class="w-slider-mask">
-          <div id="testimonials" class="testimonials-slider w-slide">
-            <div class="testimonials-message">
-              <p class="testimonials-text">&quot;Poprosiłem Boga o rower, ale wiem, że Bóg nie działa w ten sposób. Ukradłem więc rower i poprosiłem o przebaczenie. &quot;
-              </p>
-            </div>
-            <div class="testimonials-author-name">
-              <p class="testimonials-text author-name">Emo Philips</p>
-            </div>
-          </div>
-          <div class="testimonials-slider w-slide">
-            <div class="testimonials-message">
-              <p class="testimonials-text">&quot;Ludzie sądzący, że wiedzą wszystko, są bardzo irytujący dla tych z nas, którzy naprawdę wiedzą.&quot;</p>
-            </div>
-            <div class="testimonials-author-name">
-              <p class="testimonials-text author-name">Isaac Asimov
-              </p>
-            </div>
-          </div>
-          <div class="testimonials-slider w-slide">
-            <div class="testimonials-message">
-              <p class="testimonials-text">&quot; Chodzenie do kościoła nie czyni cię bardziej chrześcijaninem, niż stanie w garażu czyni cię samochodem &quot;</p>
-            </div>
-            <div class="testimonials-author-name">
-              <p class="testimonials-text author-name">Billy Sunday</p>
-            </div>
-          </div>
+
+    <div class="splide">
+      <div class="splide__slider"> 
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">"Są dwie drogi, aby przeżyć życie. Jedna to żyć tak, jakby nic nie było cudem. Druga to żyć tak, jakby cudem było wszystko." ~ Albert Einstein</li>
+            <li class="splide__slide">"Nasze życie jest takim, jakim uczyniły je nasze myśli." ~ Marek Aureliusz</li>
+            <li class="splide__slide">"Największym powodem do chwały nie jest nigdy nie upaść, ale umieć podnieść się za każdym razem kiedy upadniemy." ~ Konfucjusz</li>
+          </ul>
         </div>
-        <div class="left-arrow w-slider-arrow-left">
-          <div class="w-icon-slider-left"></div>
-        </div>
-        <div class="right-arrow w-slider-arrow-right">
-          <div class="w-icon-slider-right"></div>
-        </div>
-        <div class="w-slider-nav w-round"></div>
       </div>
     </div>
   </div>
@@ -376,7 +362,7 @@
     <div class="container footer w-container">
       <div id="w-node-3af4923ccd50-5e7de4d0" class="footer-widget">
         <h1 class="footer-heading">Piroll Design, Inc.</h1>
-        <div class="footer-text">© 2017 Piroll. All rights reserved.</div>
+        <div class="footer-text">© 2021 Piroll. All rights reserved.</div>
       
       </div>
       <div class="footer-widget mini-widget">
