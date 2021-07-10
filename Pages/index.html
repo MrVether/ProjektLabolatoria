@@ -7,6 +7,7 @@
     <link href="../Content/css/main.css" rel="stylesheet" type="text/css" />
     <link href="../Content/js/splide/dist/css/themes/splide-default.min.css" rel="stylesheet" type="text/css" />
     <script src="../Content/js/splide/dist/js/splide.min.js"></script>
+    <script src="../Content/js/video.js"></script>
     <script>
         new Splide('.splide').mount();
     </script>
@@ -180,11 +181,9 @@
     </div>
     <div class="view-more-image-gallery-placeholder">
         <div class="load-more-image-gallery-wrapper">
-            <div data-w-id="e458364a-58cf-c6d6-18e2-890387dbc52d" class="image-gallery-paragraph">Load more image-gallery</div>
+            <div data-w-id="e458364a-58cf-c6d6-18e2-890387dbc52d" class="image-gallery-paragraph">Load more image</div>
         </div>
-        <div class="no-more-image-gallery-wrapper">
-            <div class="image-gallery-paragraph">No more image-gallery</div>
-        </div>
+
     </div>
     <div id="process" class="image-gallery-process-section">
         <div class="container image-gallery-process w-container">
@@ -192,9 +191,12 @@
                 <h1 class="mini-heading image-gallery-process mobile-view">Our work process</h1>
                 <p class="paragraph image-gallery-process">Was years it seasons was there form her in them together over that, third sixth gathered female creeping bearing behold years.</p>
             </div>
-            <a href="#" class="video-placeholder w-inline-block w-lightbox">
-                <div class="video-play-button"></div>
-            </a>
+            
+            <button onclick="myFunction();return false;" class="video-placeholder w-inline-block w-lightbox">
+         <div id="video" class="video-play-button"></div>
+               </button>
+
+            </script>
         </div>
     </div>
     <div id="services" class="services-section">
