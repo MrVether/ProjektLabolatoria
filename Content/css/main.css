@@ -2211,10 +2211,12 @@ textarea.w-input {
     color: #f5f5f5;
     font-size: 18px
 }
-#video{
+
+#video {
     margin-left: 10px;
-    overflow:visible;
+    overflow: visible;
 }
+
 @media screen and (max-width:767px) {
     #w-node-3af4923ccd50-5e7de4d0 {
         -ms-grid-row: span 1;
