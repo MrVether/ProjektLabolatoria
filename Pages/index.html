@@ -22,6 +22,7 @@
   for (var index = 0; index < elements.length; index++) {
     elements[index].style.display = 'none';
   }
+  if(elements=="hideButton"){}
   myvideo.play();
 }
 
@@ -35,6 +36,28 @@
   }
 
   myvideo.pause();
+}
+</script>
+<script>
+    function hide2 (elements) {
+elements = elements.length ? elements : [elements];
+for (var index = 0; index < elements.length; index++) {
+  elements[index].style.display = 'none';
+}
+if(elements=="hideButton"){}
+
+}
+
+
+      </script>
+<script>
+  function show2 (elements, specifiedDisplay) {
+elements = elements.length ? elements : [elements];
+for (var index = 0; index < elements.length; index++) {
+  elements[index].style.display = specifiedDisplay || 'block';
+}
+
+
 }
 </script>
 
@@ -58,7 +81,7 @@
                     <div class="hero-header-col-1 w-col w-col-6 w-col-stack"></div>
                     <div class="column w-col w-col-6 w-col-stack">
                         <h1 class="heading hero">We Design and Develop</h1>
-                        <p class="paragraph">We are new design studio based in USA. We have over 20 years of combined experience, and a thing or two about designing websites and amobile apps.</p><a href="#" class="button w-button">contact Us</a>
+                        <p class="paragraph">We are new design studio based in USA. We have over 20 years of combined experience, and a thing or two about designing websites and amobile apps.</p><a href="#contact" class="button w-button">contact Us</a>
                     </div>
                 </div>
             </div>
@@ -200,11 +223,58 @@
         </div>
     </div>
 
+    <div class="view-more-image-gallery-placeholder" id="load-more">
+        <div class="load-more-image-gallery-wrapper">
+            <button  data-w-id="e458364a-58cf-c6d6-18e2-890387dbc52d" class="image-gallery-paragraph" onclick="show2(document.getElementById('hide-gallery'));hide2(document.getElementById('load-more'));" >Load more image</div>
+        </div>
+<div id="hide-gallery" style="display:none">
+    <div id="image-gallery" class="image-gallery-section">
+        <div class="image-gallery-placeholder bg-2">
+            <div class="image-gallery-overaly"></div>
+            <div class="product-image-placeholder"></div>
+        </div>
+        <div class="image-gallery-placeholder bg-2 _5">
+            <div class="image-gallery-overaly"></div>
+            <div class="product-image-placeholder product-img-6"></div>
+        </div>
+        <div class="image-gallery-placeholder bg-2 _3">
+            <div class="image-gallery-overaly"></div>
+            <div class="product-image-placeholder product-img-3"></div>
+        </div>
+        <div class="image-gallery-placeholder bg-1 _4">
+            <div class="image-gallery-overaly"></div>
+            <div class="product-image-placeholder product-img-4"></div>
+        </div>
+        <div class="image-gallery-placeholder bg-1">
+            <div class="image-gallery-overaly"></div>
+            <div class="product-image-placeholder product-img-2"></div>
+        </div>
+        <div class="image-gallery-placeholder bg-1 _6">
+            <div class="image-gallery-overaly"></div>
+            <div class="product-image-placeholder product-img-7"></div>
+        </div>
+    </div>
+    <div style="-webkit-transform:translate3d(0, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0.13"
+        class="image-gallery-section more-products">
+        <div class="image-gallery-placeholder bg-2">
+            <div class="image-gallery-overaly"></div>
+            <div class="product-image-placeholder"></div>
+        </div>
+        <div class="image-gallery-placeholder bg-2 _5">
+            <div class="image-gallery-overaly"></div>
+            <div class="product-image-placeholder product-img-6"></div>
+        </div>
+        <div class="image-gallery-placeholder bg-2 _3">
+            <div class="image-gallery-overaly"></div>
+            <div class="product-image-placeholder product-img-3"></div>
+        </div>
+    </div>
+
     <div class="view-more-image-gallery-placeholder">
         <div class="load-more-image-gallery-wrapper">
-            <button data-w-id="e458364a-58cf-c6d6-18e2-890387dbc52d" class="image-gallery-paragraph">Load more image</div>
+            <button data-w-id="e458364a-58cf-c6d6-18e2-890387dbc52d" class="image-gallery-paragraph" onclick="hide2(document.getElementById('hide-gallery'));show2(document.getElementById('load-more'));">Hide image</div>
         </div>
-
+</div>
     </div>
     <div id="process" class="image-gallery-process-section">
         <div class="container image-gallery-process w-container">

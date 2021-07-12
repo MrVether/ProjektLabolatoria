@@ -1886,10 +1886,23 @@ z-index: 0;
         -ms-grid-columns: minmax(341px, 1fr) minmax(341px, 1fr);
         grid-template-columns: minmax(341px, 1fr) minmax(341px, 1fr)
     }
+    .image-gallery-section2 {
+        overflow: hidden;
+        -ms-grid-columns: minmax(341px, 1fr) minmax(341px, 1fr);
+        grid-template-columns: minmax(341px, 1fr) minmax(341px, 1fr)
+    }
     .view-more-image-gallery-placeholder {
         overflow: hidden
     }
+    .view-more-image-gallery-placeholder2 {
+        overflow: hidden
+    }
     .image-gallery-process-section {
+        overflow: hidden;
+        padding-right: 13px;
+        padding-left: 13px
+    }
+    .image-gallery-process-section2 {
         overflow: hidden;
         padding-right: 13px;
         padding-left: 13px
