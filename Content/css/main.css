@@ -1383,6 +1383,7 @@ textarea.w-input {
 
 .video-placeholder {
     position: relative;
+z-index: 0;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1408,15 +1409,17 @@ textarea.w-input {
     background-image: url(../VideoMiniature.png);
     background-position: 0 0;
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    
 }
 
 .video-play-button {
-    position: static;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
+  z-index: 1;
+   
+    left: 47%;
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
     width: 86px;
     height: 86px;
     border-radius: 50%;
@@ -1425,7 +1428,11 @@ textarea.w-input {
     background-position: 50% 50%;
     background-size: auto;
     background-repeat: no-repeat;
-    background-attachment: scroll
+    background-attachment: scroll;
+  
+}
+.video-play-button:focus{
+    display: none;
 }
 
 .services-section {
