@@ -1282,6 +1282,7 @@ textarea.w-input {
     background-color: #f0f0f2
 }
 
+
 .image-gallery-placeholder.bg-1._4 {
     background-color: #e7e6e4
 }
@@ -1737,42 +1738,124 @@ z-index: 0;
     background-size: contain;
     background-repeat: no-repeat
 }
+.product-image-placeholder:hover{
+    transition: .5s ease;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    background-image: url(../eye.png);
+   background-size: 40%;
+   
+}
 
 .product-image-placeholder.product-img-1 {
     background-image: url(../Potate.png)
 }
-
+.product-image-placeholder.product-img-1:hover{
+    transition: .5s ease;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    background-image: url(../eye.png);
+   background-size: 40%;
+   
+}
 .product-image-placeholder.product-img-2 {
-    background-image: url(../Bread.png);
+    background-image: url(../Bread.png) ;
     background-position: 50% 50%;
     background-size: contain;
     background-repeat: no-repeat
 }
-
+.product-image-placeholder.product-img-2:hover{
+    transition: .5s ease;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    background-image: url(../eye.png);
+   background-size: 40%;
+   
+}
 .product-image-placeholder.product-img-4 {
     background-image: url(../Banana.png)
 }
-
+.product-image-placeholder.product-img-4:hover{
+    transition: .5s ease;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    background-image: url(../eye.png);
+   background-size: 40%;
+   
+}
 .product-image-placeholder.product-img-3 {
     background-image: url(../Nut.png)
 }
-
+.product-image-placeholder.product-img-3:hover{
+    transition: .5s ease;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    background-image: url(../eye.png);
+   background-size: 40%;
+   
+}
 .product-image-placeholder.product-img-5 {
     background-image: url(../Orange.png)
 }
-
+.product-image-placeholder.product-img-5:hover{
+    transition: .5s ease;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    background-image: url(../eye.png);
+   background-size: 40%;
+   
+}
 .product-image-placeholder.product-img-6 {
     background-image: url(../Pinapple.png)
 }
-
+.product-image-placeholder.product-img-6:hover{
+    transition: .3s ease-in;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    background-image: url(../eye.png);
+   background-size: 40%;
+   
+}
 .product-image-placeholder.product-img-7 {
     background-image: url(../Lemon.png)
 }
-
+.product-image-placeholder.product-img-7:hover{
+    transition: .5s ease;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    background-image: url(../eye.png);
+   background-size: 40%;
+   
+}
 .product-image-placeholder.product-img-8 {
     background-image: url(../Strawberry.png)
 }
-
+.product-image-placeholder.product-img-8:hover{
+    transition: .5s ease;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    background-image: url(../eye.png);
+   background-size: 40%;
+   
+}
 .hero-header {
     display: -webkit-box;
     display: -webkit-flex;

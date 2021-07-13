@@ -7,6 +7,7 @@
     <link href="../Content/css/main.css" rel="stylesheet" type="text/css" />
     <link href="../Content/js/splide/dist/css/themes/splide-default.min.css" rel="stylesheet" type="text/css" />
     <script src="../Content/js/splide/dist/js/splide.min.js"></script>
+    <script src="../Content/js/img_box.js"></script>
     <script>
         new Splide('.splide').mount();
     </script>
@@ -61,6 +62,7 @@ for (var index = 0; index < elements.length; index++) {
 }
 </script>
 
+   
 </head>
 
 <body class="body">
@@ -182,46 +184,32 @@ for (var index = 0; index < elements.length; index++) {
         </div>
     </div>
     <div id="image-gallery" class="image-gallery-section">
-        <div class="image-gallery-placeholder bg-2">
+        <div class="image-gallery-placeholder bg-2" onclick="img_box('../Content/apple.png')">
             <div class="image-gallery-overaly"></div>
             <div class="product-image-placeholder"></div>
         </div>
         <div class="image-gallery-placeholder bg-2 _5">
             <div class="image-gallery-overaly"></div>
-            <div class="product-image-placeholder product-img-6"></div>
+            <div class="product-image-placeholder product-img-6" onclick="img_box('../Content/Pinapple.png')"></div>
         </div>
         <div class="image-gallery-placeholder bg-2 _3">
             <div class="image-gallery-overaly"></div>
-            <div class="product-image-placeholder product-img-3"></div>
+            <div class="product-image-placeholder product-img-3 "onclick="img_box('../Content/Nut.png')"></div>
         </div>
         <div class="image-gallery-placeholder bg-1 _4">
             <div class="image-gallery-overaly"></div>
-            <div class="product-image-placeholder product-img-4"></div>
+            <div class="product-image-placeholder product-img-4"onclick="img_box('../Content/Banana.png')"></div>
         </div>
         <div class="image-gallery-placeholder bg-1">
             <div class="image-gallery-overaly"></div>
-            <div class="product-image-placeholder product-img-2"></div>
+            <div class="product-image-placeholder product-img-2"onclick="img_box('../Content/Bread.png')"></div>
         </div>
         <div class="image-gallery-placeholder bg-1 _6">
             <div class="image-gallery-overaly"></div>
-            <div class="product-image-placeholder product-img-7"></div>
+            <div class="product-image-placeholder product-img-7"onclick="img_box('../Content/Lemon.png')"></div>
         </div>
     </div>
-    <div style="-webkit-transform:translate3d(0, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0.13"
-        class="image-gallery-section more-products">
-        <div class="image-gallery-placeholder bg-2">
-            <div class="image-gallery-overaly"></div>
-            <div class="product-image-placeholder"></div>
-        </div>
-        <div class="image-gallery-placeholder bg-2 _5">
-            <div class="image-gallery-overaly"></div>
-            <div class="product-image-placeholder product-img-6"></div>
-        </div>
-        <div class="image-gallery-placeholder bg-2 _3">
-            <div class="image-gallery-overaly"></div>
-            <div class="product-image-placeholder product-img-3"></div>
-        </div>
-    </div>
+    
 
     <div class="view-more-image-gallery-placeholder" id="load-more">
         <div class="load-more-image-gallery-wrapper">
@@ -229,45 +217,19 @@ for (var index = 0; index < elements.length; index++) {
         </div>
 <div id="hide-gallery" style="display:none">
     <div id="image-gallery" class="image-gallery-section">
-        <div class="image-gallery-placeholder bg-2">
+        <div class="image-gallery-placeholder bg-2"onclick="img_box('../Content/apple.png')">
             <div class="image-gallery-overaly"></div>
             <div class="product-image-placeholder"></div>
         </div>
         <div class="image-gallery-placeholder bg-2 _5">
             <div class="image-gallery-overaly"></div>
-            <div class="product-image-placeholder product-img-6"></div>
+            <div class="product-image-placeholder product-img-1"onclick="img_box('../Content/Potate.png')"></div>
         </div>
         <div class="image-gallery-placeholder bg-2 _3">
             <div class="image-gallery-overaly"></div>
-            <div class="product-image-placeholder product-img-3"></div>
+            <div class="product-image-placeholder product-img-5"onclick="img_box('../Content/Orange.png')"></div>
         </div>
-        <div class="image-gallery-placeholder bg-1 _4">
-            <div class="image-gallery-overaly"></div>
-            <div class="product-image-placeholder product-img-4"></div>
-        </div>
-        <div class="image-gallery-placeholder bg-1">
-            <div class="image-gallery-overaly"></div>
-            <div class="product-image-placeholder product-img-2"></div>
-        </div>
-        <div class="image-gallery-placeholder bg-1 _6">
-            <div class="image-gallery-overaly"></div>
-            <div class="product-image-placeholder product-img-7"></div>
-        </div>
-    </div>
-    <div style="-webkit-transform:translate3d(0, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 16px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0.13"
-        class="image-gallery-section more-products">
-        <div class="image-gallery-placeholder bg-2">
-            <div class="image-gallery-overaly"></div>
-            <div class="product-image-placeholder"></div>
-        </div>
-        <div class="image-gallery-placeholder bg-2 _5">
-            <div class="image-gallery-overaly"></div>
-            <div class="product-image-placeholder product-img-6"></div>
-        </div>
-        <div class="image-gallery-placeholder bg-2 _3">
-            <div class="image-gallery-overaly"></div>
-            <div class="product-image-placeholder product-img-3"></div>
-        </div>
+
     </div>
 
     <div class="view-more-image-gallery-placeholder">
